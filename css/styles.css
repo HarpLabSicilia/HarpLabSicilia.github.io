@@ -814,6 +814,7 @@ input[type='checkbox'] {
 .basic-1 {
 	padding-top: 6.5rem;
 	padding-bottom: 3rem;
+	background-color: #fbfbfb;
 }
 
 .basic-1 .text-container {
@@ -2467,3 +2468,8 @@ a:hover.back-to-top {
 	/* end of navigation */
 }
 /* end of min-width width 1200px */
+
+.glicine-background{
+	background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('../images/glicine.jpg');
+	background-size: cover;
+}
