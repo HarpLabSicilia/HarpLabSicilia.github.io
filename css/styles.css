@@ -1780,13 +1780,13 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #9F834B url("../images/up-arrow.png") no-repeat center 47%;
+	background: #a06820 url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
 
 a:hover.back-to-top {
-	background-color: #13aa87; 
+	background-color: #9F834B; 
 }
 
 
@@ -2469,7 +2469,62 @@ a:hover.back-to-top {
 }
 /* end of min-width width 1200px */
 
+.carlos-intro{
+	font-family: 'Great Vibes', cursive, bold;
+	font-size: 2.6rem;
+	color: rgb(50, 50, 50);
+	text-align: center;
+}
+
+.carlos{
+	font-family: 'Cinzel', serif;
+	font-style: italic;
+	font-size: 1.5rem;
+	text-align: right;
+	color: rgb(50, 50, 50);
+}
+
 .glicine-background{
 	background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('../images/glicine.jpg');
 	background-size: cover;
 }
+
+.location-title{
+	font-family: 'Great Vibes', cursive;
+}
+
+.maps-location{
+	font-family: 'Great Vibes', cursive;
+	font-size: 1.5rem;
+	color: rgb(50, 50, 50);
+}
+
+.location-description{
+	font-family: 'Cinzel', serif;
+	color: rgb(30, 30, 30);
+	font-size: 1rem;
+}
+
+.room-title{
+	font-family: 'Cinzel', serif;
+	font-weight: bold;
+	color: rgb(30, 30, 30);
+}
+
+.price-table{
+	width:100%;
+	margin-top: 0.5rem;
+	margin-bottom: 2.5rem;
+}
+
+.price{
+
+}
+
+.per-night{
+	font-family: 'Cinzel', serif;
+	font-weight: bold;
+	color: rgb(29, 29, 29);
+	font-size: 0.8rem;
+}
+
