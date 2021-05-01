@@ -657,6 +657,7 @@ input[type='checkbox'] {
 .navbar-custom .navbar-brand.logo-image img {
     width: 7.0625rem;
 	height: 2rem;
+	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
 }
 
@@ -2073,14 +2074,16 @@ a:hover.back-to-top {
 		width: 1.625rem;
 		height: 1.625rem;
 		position: absolute;
-		background: url('../images/hexagon-green.svg') center center no-repeat;
-		background-size: 1.625rem 1.625rem;
+		/*background: url('../images/hexagon-green.svg') center center no-repeat;
+		background-size: 1.625rem 1.625rem;*/
 		transition: all 0.2s ease;
 	}
 
 	.navbar-custom .fa-stack:hover .hexagon {
+		/*
 		background: url('../images/hexagon-white.svg') center center no-repeat;
 		background-size: 1.625rem 1.625rem;
+		*/
 	}
 	
 	.navbar-custom .fa-stack-1x {
