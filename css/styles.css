@@ -2531,3 +2531,10 @@ a:hover.back-to-top {
 	font-size: 0.8rem;
 }
 
+.event:lang(en)::before {
+	content: "EVENT ";
+}
+
+.event:lang(it)::before {
+	content: "EVENTO";
+}
