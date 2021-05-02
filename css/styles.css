@@ -819,7 +819,7 @@ input[type='checkbox'] {
 }
 
 .basic-1 .text-container {
-	margin-bottom: 3rem;
+	/*margin-bottom: 3rem;*/
 }
 
 .basic-1 .section-title {
@@ -2537,4 +2537,38 @@ a:hover.back-to-top {
 
 .event:lang(it)::before {
 	content: "EVENTO";
+}
+
+.row-curriculum{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.image-col{
+	align-self: center;
+}
+
+.miriam-description{
+	text-align: justify;
+	font-family: 'Cinzel', serif;
+	color: rgb(30, 30, 30);
+	font-size: 1rem;
+}
+
+.cols-reverse{
+	flex-direction: inherit;
+}
+
+@media (max-width: 992px) {
+	.cols-reverse{
+		flex-direction: column-reverse;
+	}
+	.row-curriculum{
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+	}
 }
