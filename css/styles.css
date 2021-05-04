@@ -675,6 +675,7 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .nav-item .nav-link {
+	font-family: 'Cinzel', serif;
 	padding: 0.625rem 0.75rem 0.625rem 0.75rem;
 	color: #FFF;
 	text-decoration: none;
@@ -782,11 +783,10 @@ input[type='checkbox'] {
 }
 
 .header .header-content {
-	padding-top: 16rem;
-	padding-bottom: 2.125rem;
 	text-align: center;
 	width: 100%;
     height: 100vh;
+	display: flex;
 }
 
 .header .text-container {
@@ -2106,7 +2106,7 @@ a:hover.back-to-top {
 	}
 
 	.header .text-container {
-		margin-top: 6.5rem;
+		/*margin-top: 6.5rem;*/
 	}
 	/* end of header */
 
@@ -2571,4 +2571,10 @@ a:hover.back-to-top {
 		padding-top: 0.5rem;
 		padding-bottom: 0.5rem;
 	}
+}
+
+.center-container{
+	justify-content: center;
+    align-items: center;
+	display: flex;
 }
