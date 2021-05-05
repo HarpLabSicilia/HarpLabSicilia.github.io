@@ -1,10 +1,3 @@
-/* Template: Aria - Business HTML Landing Page Template
-   Author: Inovatik
-   Created: Jul 2019
-   Description: Custom JS file
-*/
-
-
 (function($) {
     "use strict"; 
 	
@@ -189,11 +182,11 @@
 		var email = $("#lemail").val();
 		var select = $("#lselect").val();
         var terms = $("#lterms").val();
-        
+
         $.ajax({
             type: "POST",
             url: "php/callmeform-process.php",
-            data: "name=" + name + "&phone=" + phone + "&email=" + email + "&select=" + select + "&terms=" + terms, 
+            data: "name=" + name + "&phone=" + phone + "&email=" + email + "&select=" + select + "&terms=" + terms,
             success: function(text) {
                 if (text == "success") {
                     lformSuccess();

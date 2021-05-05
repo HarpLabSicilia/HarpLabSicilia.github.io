@@ -1674,9 +1674,9 @@ input[type='checkbox'] {
 }
 
 .form-2 .list-unstyled {
-	margin-bottom: 2.25rem;
-	font-size: 1rem;
-	line-height: 1.625rem;
+	/*margin-bottom: 2.25rem;*/
+	/*font-size: 1rem;*/
+	/*line-height: 1.625rem;*/
 }
 
 .form-2 .list-unstyled .fas,
@@ -2591,4 +2591,8 @@ a:hover.back-to-top {
 	-moz-transform: scale(1.07);
 	-webkit-transform: scale(1.07);
 	transform: scale(1.07);
+}
+
+.contact-img{
+	border-radius: 0.25rem;
 }
