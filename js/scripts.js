@@ -1,6 +1,5 @@
 (function($) {
-    "use strict"; 
-	
+    "use strict";
 	/* Preloader */
 	$(window).on('load', function() {
 		var preloaderFadeOutTime = 500;
@@ -13,7 +12,7 @@
 		hidePreloader();
 	});
 
-	
+
 	/* Navbar Scripts */
 	// jQuery to collapse the navbar on scroll
     $(window).on('scroll load', function() {
