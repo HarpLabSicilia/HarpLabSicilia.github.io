@@ -1758,13 +1758,13 @@ input[type='checkbox'] {
 .copyright {
 	padding-top: 1rem;
 	padding-bottom: 0.5rem;
-	background-color: #113448;
+	background-color: #39270F;
 	text-align: center;
 }
 
 .copyright p,
 .copyright a {
-	color: #dfe5ec;
+	color: #9F834B;
 	text-decoration: none;
 }
 
