@@ -80,7 +80,7 @@ body, p {
 
 h1 {
 	color: #484a46;
-	font: 700 2.5rem/3rem "Montserrat", sans-serif;
+	/*font: 700 2.5rem/3rem "Montserrat", sans-serif;*/
 }
 
 h2 {
@@ -813,7 +813,7 @@ input[type='checkbox'] {
 /*     05. Intro     */
 /*********************/
 .basic-1 {
-	padding-top: 6.5rem;
+	padding-top: 5rem;
 	padding-bottom: 3rem;
 	background-color: #fbfbfb;
 }
@@ -1391,10 +1391,10 @@ input[type='checkbox'] {
 	-moz-transform: scale(1.15);
 	-webkit-transform: scale(1.15);
 	transform: scale(1.15);
-} 
+}
 /* end of hover animation */
 
-.filter .element-item .element-item-overlay { 
+.filter .element-item .element-item-overlay {
 	position: absolute;
 	z-index: 2;
 	top: 0;
@@ -1500,7 +1500,7 @@ input[type='checkbox'] {
 /*     14. Team     */
 /********************/
 .basic-2 {
-	padding-top: 6.375rem;
+	padding-top: 3.5rem;
 	padding-bottom: 3.375rem;
 	background-color: #fbfbfb;
 	text-align: center;
@@ -1656,8 +1656,8 @@ input[type='checkbox'] {
 /*     16. Contact     */
 /***********************/
 .form-2 {
-	padding-top: 6.625rem;
-	padding-bottom: 5.625rem;
+	padding-top: 4.5rem;
+	padding-bottom: 4.5rem;
 	background-color: #fbfbfb;
 }
 
@@ -2113,7 +2113,7 @@ a:hover.back-to-top {
 
 	/* Intro */
 	.basic-1 {
-		padding-top: 6.875rem;
+		padding-top: 6rem;
 	}
 
 	.basic-1 .text-container {
@@ -2258,7 +2258,7 @@ a:hover.back-to-top {
 
 	/* Contact */
 	.form-2 {
-		padding-top: 6.875rem;
+		padding-top: 4.5rem;
 	}
 
 	.form-2 .text-container {
@@ -2420,8 +2420,7 @@ a:hover.back-to-top {
 		margin-left: 2rem;
 	}
 	/* end of about */
-	
-	
+
 	/* Contact */
 	.form-2 .text-container {
 		margin-top: 0.875rem;
@@ -2485,6 +2484,7 @@ a:hover.back-to-top {
 	font-size: 1.5rem;
 	text-align: right;
 	color: rgb(50, 50, 50);
+	padding-bottom: 2rem;
 }
 
 .glicine-background{
@@ -2493,12 +2493,13 @@ a:hover.back-to-top {
 }
 
 .location-title{
-	font-family: 'Great Vibes', cursive;
+	font-family: 'Great Vibes', cursive, bold;
+	font-size: 2.6rem;
 }
 
 .maps-location{
 	font-family: 'Great Vibes', cursive;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	color: rgb(50, 50, 50);
 }
 
@@ -2577,4 +2578,17 @@ a:hover.back-to-top {
 	justify-content: center;
     align-items: center;
 	display: flex;
+}
+
+.download-pdf{
+	width: 12rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	transition: all 0.2s ease-out;
+}
+
+.download-pdf:hover{
+	-moz-transform: scale(1.07);
+	-webkit-transform: scale(1.07);
+	transform: scale(1.07);
 }
