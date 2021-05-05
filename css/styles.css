@@ -884,7 +884,7 @@ input[type='checkbox'] {
 	position: absolute;
 	width: 6rem;
 	height: 6rem;
-	background: url('../images/hexagon-green.svg') center center no-repeat;
+	background: url('../images/hexagon.svg') center center no-repeat;
 	background-size: 6rem 6rem;
 }
 
@@ -1565,7 +1565,7 @@ input[type='checkbox'] {
 	left: 0;
 	width: 1.75rem;
 	height: 1.75rem;
-	background: url('../images/hexagon-green.svg') center center no-repeat;
+	background: url('../images/hexagon.svg') center center no-repeat;
 	background-size: 1.75rem 1.75rem;
 	transition: all 0.2s ease;
 }
@@ -1706,7 +1706,7 @@ input[type='checkbox'] {
 	position: absolute;
 	width: 3.25rem;
 	height: 3.25rem;
-	background: url('../images/hexagon-green.svg') center center no-repeat;
+	background: url('../images/hexagon.svg') center center no-repeat;
 	background-size: 3.25rem 3.25rem;
 	transition: all 0.2s ease;
 }
@@ -1764,7 +1764,7 @@ input[type='checkbox'] {
 
 .copyright p,
 .copyright a {
-	color: #9F834B;
+	color: #FFF;
 	text-decoration: none;
 }
 
@@ -1781,13 +1781,13 @@ a.back-to-top {
 	width: 2.625rem;
 	height: 2.625rem;
 	border-radius: 1.875rem;
-	background: #a06820 url("../images/up-arrow.png") no-repeat center 47%;
+	background: #9F834B url("../images/up-arrow.png") no-repeat center 47%;
 	background-size: 1.125rem 1.125rem;
 	text-indent: -9999px;
 }
 
 a:hover.back-to-top {
-	background-color: #9F834B; 
+	background-color: #9F834B;
 }
 
 
@@ -2074,7 +2074,7 @@ a:hover.back-to-top {
 		width: 1.625rem;
 		height: 1.625rem;
 		position: absolute;
-		/*background: url('../images/hexagon-green.svg') center center no-repeat;
+		/*background: url('../images/hexagon.svg') center center no-repeat;
 		background-size: 1.625rem 1.625rem;*/
 		transition: all 0.2s ease;
 	}
