@@ -2528,7 +2528,7 @@ a:hover.back-to-top {
 .per-night{
 	font-family: 'Cinzel', serif;
 	font-weight: bold;
-	color: rgb(29, 29, 29);
+	color: rgb(30, 30, 30);
 	font-size: 0.8rem;
 }
 
@@ -2595,4 +2595,34 @@ a:hover.back-to-top {
 
 .contact-img{
 	border-radius: 0.25rem;
+}
+
+.program-event{
+	display: flow-root;
+	margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.program-event-container{
+	margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.program-event span{
+	font-family: 'Cinzel', serif;
+	font-weight: bold;
+	color: rgb(30, 30, 30);
+}
+
+.program-event img{
+	float: left;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    margin-right: 2rem;
+}
+
+.program-text{
+	padding-top: 0.7rem;
+	height: 95px;
 }
