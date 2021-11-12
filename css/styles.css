@@ -778,12 +778,12 @@ input[type='checkbox'] {
 /*    04. Header     */
 /*********************/
 .header {
-	background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('../images/header-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('../images/Sfondo.jpg') center center no-repeat;
 	background-size: cover;
 }
 
 .header .header-content {
-	text-align: center;
+	/*text-align: center;*/
 	width: 100%;
     height: 100vh;
 	display: flex;
@@ -842,7 +842,7 @@ input[type='checkbox'] {
 
 .basic-1 .image-container img {
 	margin: 0;
-	border-radius: 0.25rem;
+	border-radius: 0.60rem;
 	transition: all 0.3s;
 }
 
@@ -1863,7 +1863,7 @@ a:hover.back-to-top {
 @media (min-width: 768px) {
 
 	.navbar-custom .nav-item .nav-link {
-		color: #39270F;
+		color: #39270f00;
 	}
 
 	/* General Styles */
@@ -2488,7 +2488,7 @@ a:hover.back-to-top {
 }
 
 .glicine-background{
-	background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('../images/glicine.jpg');
+	background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), url('../images/Christmas1.jpg');
 	background-size: cover;
 }
 
@@ -2505,8 +2505,8 @@ a:hover.back-to-top {
 
 .location-description{
 	font-family: 'Cinzel', serif;
-	color: rgb(30, 30, 30);
-	font-size: 1rem;
+	color: rgb(10, 10, 10);
+	font-size: 1.21rem;
 }
 
 .room-title{
@@ -2594,7 +2594,7 @@ a:hover.back-to-top {
 }
 
 .contact-img{
-	border-radius: 0.25rem;
+	border-radius: 0.60rem;
 }
 
 .program-event{
