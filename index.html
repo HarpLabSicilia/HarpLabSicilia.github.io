@@ -59,7 +59,7 @@
 
 		<!-- Image Logo -->
 		<!-- a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a-->
-		<span style="font-family: 'Cinzel', serif; color:#9F834B; font-size: 20px;">HarpLab</span>
+		<span style="font-family: 'Cinzel', serif; color:#9F834B; font-size: 20px; display: none;">HarpLab</span>
 		<!-- Mobile Menu Toggle Button -->
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
 			aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -74,7 +74,7 @@
 					<!-- a class="nav-link page-scroll" href="#header">HOME <span class="sr-only">(current)</span></a-->
 				</li>
 				<li class="nav-item">
-					<a class="nav-link page-scroll event" href="#header"></a>
+					<a class="nav-link page-scroll event" style="display: none;" href="#header"></a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link page-scroll" href="#teachers">TEACHERS</a>
@@ -114,21 +114,17 @@
 	<!-- Header -->
 	<header id="header" class="header">
 		<div class="header-content">
-			<div class="container center-container">
+			<div class="container" style="display: flex; align-items: center; text-shadow: 3px 3px 4px black;">
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="text-container">
-							<p><span style="font-family: 'Cinzel', serif; color:white; font-size: 57px;">HarpLab</span>
+							<p>
+								<span style="font-family: 'Cinzel', serif; color:white; font-size: 57px;">HarpLab</span>
 							</p>
 							<p>
-								<span
-									style="font-family: 'Cinzel', serif; color:white; font-size: 27px; letter-spacing: 0.3em;">1°
-									laboratorio di Arpa in Sicilia</span>
-							</p>
-							<p>
-								<span
-									style="font-family: 'Cinzel', serif; color:white; font-size: 15px; letter-spacing: 0.3em;">Dal
-									22 al 25 Luglio 2021</span>
+								<span style="font-family: 'Cinzel', serif; color:white; font-size: 27px; letter-spacing: 0.3em;">
+									Winter Edition 2021
+								</span>
 							</p>
 							<!--<a class="btn-solid-lg page-scroll" href="#intro">Play</a>-->
 						</div>
@@ -154,7 +150,7 @@
 				</div> <!-- end of col -->
 				<div class="col-lg-7">
 					<div class="image-container">
-						<img class="img-fluid" src="images/intro.jpg" alt="alternative">
+						<img class="img-fluid" src="images/christmas-harp-3.jpg" alt="alternative">
 					</div> <!-- end of image-container -->
 				</div> <!-- end of col -->
 			</div> <!-- end of row -->
@@ -235,11 +231,32 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12">
-					<h1 style="text-align: center; padding: 3rem;" class="location-title">Program</h1>
+					<h1 style="text-align: center; padding: 3rem;" class="location-title">Winter Edition Program</h1>
 				</div>
 				<div class="col-xl-3 col-lg-3">
 					<div class="date">
-						<h3>22 Luglio 2021</h3>
+						<h3>22 Dicembre 2021</h3>
+					</div>
+				</div>
+				<div class="program-event-container col-xl-9 col-lg-9">
+					<div class="program-event">
+						<img src="images/gnomo_square.jpg">
+						<div class="program-text">
+							<div class="heading d-flex justify-content-between align-items-center">
+								<span>Start</span>
+								<div class="time">
+									15:30 - 19:30
+								</div>
+							</div>
+							<p>Accoglienza ed inizio delle lezioni</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xl-3 col-lg-3">
+					<div class="date">
+						<h3>23 Dicembre 2021</h3>
 					</div>
 				</div>
 				<div class="program-event-container col-xl-9 col-lg-9">
@@ -247,158 +264,45 @@
 						<img src="images/grand-opening.jpg" alt="">
 						<div class="program-text">
 							<div class="heading d-flex justify-content-between align-items-center">
-								<span>Accoglienza</span>
+								<span>Lezione</span>
+								<div class="time">
+									9:00 - 13:00
+								</div>
+							</div>
+							<p>Lezioni individuali e di gruppo di approfondimento dei brani</p>
+						</div>
+					</div>
+					<div class="program-event">
+						<img src="images/pranzo.jpg">
+						<div class="program-text">
+							<div class="heading d-flex justify-content-between align-items-center">
+								<span>Pausa Pranzo</span>
+								<div class="time">
+									13:15 - 14:15
+								</div>
+							</div>
+							<p>Pranzo offerto dall'"Accademia Musica Arte Salzedo"</p>
+						</div>
+					</div>
+					<div class="program-event">
+						<img src="images/agrifoglio.jpg">
+						<div class="program-text">
+							<div class="heading d-flex justify-content-between align-items-center">
+								<span>Lezione</span>
+								<div class="time">
+									15:00 - 17:00
+								</div>
+							</div>
+							<p>Prove generali</p>
+						</div>
+					</div>
+					<div class="program-event">
+						<img src="images/program-individuali.jpg">
+						<div class="program-text">
+							<div class="heading d-flex justify-content-between align-items-center">
+								<span>Saggio Finale</span>
 								<div class="time">
 									19:00
-								</div>
-							</div>
-							<p>Arrivo e sistemazione in camera</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-xl-3 col-lg-3">
-					<div class="date">
-						<h3>23 Luglio 2021</h3>
-					</div>
-				</div>
-				<div class="program-event-container col-xl-9 col-lg-9">
-					<div class="program-event">
-						<img src="images/ensemble1.jpg">
-						<div class="program-text">
-							<div class="heading d-flex justify-content-between align-items-center">
-								<span>Ensemble</span>
-								<div class="time">
-									9:00 - 11:00
-								</div>
-							</div>
-							<p>Lezione in Ensemble del brano “Estrella” di F. Rizza</p>
-						</div>
-					</div>
-					<div class="program-event">
-						<img src="images/ensemble2.jpg">
-						<div class="program-text">
-							<div class="heading d-flex justify-content-between align-items-center">
-								<span>Ensemble</span>
-								<div class="time">
-									11:15 - 13:15
-								</div>
-							</div>
-							<p>Lezione in Ensemble del brano “Triptic Dance” di P. Beauchant, arr. C. Salzedo</p>
-						</div>
-					</div>
-					<div class="program-event">
-						<img src="images/program-individuali.jpg">
-						<div class="program-text">
-							<div class="heading d-flex justify-content-between align-items-center">
-								<span>Lezioni individuali</span>
-								<div class="time">
-									15:00 - 20:00
-								</div>
-							</div>
-							<p>Lezione singola con gli insegnanti</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-xl-3 col-lg-3">
-					<div class="date">
-						<h3>24 Luglio 2021</h3>
-					</div>
-				</div>
-				<div class="program-event-container col-xl-9 col-lg-9">
-					<div class="program-event">
-						<img src="images/ensemble2.jpg">
-						<div class="program-text">
-							<div class="heading d-flex justify-content-between align-items-center">
-								<span>Ensemble</span>
-								<div class="time">
-									9:00 - 11:00
-								</div>
-							</div>
-							<p>Lezione in Ensemble del brano “Triptic Dance” di P. Beauchant, arr. C. Salzedo</p>
-						</div>
-					</div>
-					<div class="program-event">
-						<img src="images/ensemble1.jpg">
-						<div class="program-text">
-							<div class="heading d-flex justify-content-between align-items-center">
-								<span>Ensemble</span>
-								<div class="time">
-									11:15 - 13:15
-								</div>
-							</div>
-							<p>Lezione in Ensemble del brano “Estrella” di F. Rizza</p>
-						</div>
-					</div>
-					<div class="program-event">
-						<img src="images/program-individuali.jpg">
-						<div class="program-text">
-							<div class="heading d-flex justify-content-between align-items-center">
-								<span>Lezioni individuali</span>
-								<div class="time">
-									15:00 - 19:00
-								</div>
-							</div>
-							<p>Lezione singola con gli insegnanti</p>
-						</div>
-					</div>
-					<div class="program-event">
-						<img src="images/grand-opening.jpg">
-						<div class="program-text">
-							<div class="heading d-flex justify-content-between align-items-center">
-								<span>Concerto d'Arpa</span>
-								<div class="time">
-									20:00
-								</div>
-							</div>
-							<p>M° Fabio Rizza, M° Miriam Zappalà</p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-xl-3 col-lg-3">
-					<div class="date">
-						<h3>25 Luglio 2021</h3>
-					</div>
-				</div>
-				<div class="program-event-container col-xl-9 col-lg-9">
-					<div class="program-event">
-						<img src="images/ensemble-improvisation.jpg">
-						<div class="program-text">
-							<div class="heading d-flex justify-content-between align-items-center">
-								<span>Ensemble</span>
-								<div class="time">
-									10:00 - 12:00
-								</div>
-							</div>
-							<p>Improvisation time</p>
-						</div>
-					</div>
-					<div class="program-event">
-						<img src="images/prove-generali.jpg">
-						<div class="program-text">
-							<div class="heading d-flex justify-content-between align-items-center">
-								<span>Prove generali</span>
-								<div class="time">
-									15:30
-								</div>
-							</div>
-							<p></p>
-						</div>
-					</div>
-					<div class="program-event">
-						<img src="images/saggio-finale.jpg">
-						<div class="program-text">
-							<div class="heading d-flex justify-content-between align-items-center">
-								<span>Saggio finale</span>
-								<div class="time">
-									18:00
 								</div>
 							</div>
 							<p></p>
@@ -409,8 +313,7 @@
 			<p style="margin-bottom: 2.5rem;">
 				<p style="margin-bottom: 0;" class="miriam-description">Nota</p>
 				Il pogramma potrebbe subire variazioni.
-				L’orario individuale delle lezioni singole sarà stabilito e comunicato non appena le iscrizioni saranno concluse.
-				In base al livello delle allieve ed a discrezione dei docenti potrebbe essere inserito nel programma dell’Esemble il brano “Baroque Flamenco” di D. H. Conant.
+				
 			</p>
 		</div>
 	</div>
@@ -440,17 +343,14 @@
 
 							<p class="location-description">Durata del corso</p>
 							<ul>
-								<li>Le lezioni si svolgeranno dalla mattina del 23 alla mattina del 25 Luglio 2021.</li>
-								<li>La sera del 22 luglio 2021 è prevista l'inaugurazione di HarpLab con un concerto tenuto
-									dai docenti, al quale tutti gli allievi sono invitati a partecipare.</li>
-								<li>Il laboratorio si concluderà nel pomeriggio di Domenica 25 con un saggio finale nel
-									quale tutti gli allievi effettivi si esibiranno, sia in formazioni di gruppo che
-									singole.</li>
+								<li>Le lezioni si svolgeranno dalla mattina del 22 alla pomeriggio del 23 Decembre 2021.</li>
+								<li>Il laboratorio si concluderà nel pomeriggio di Domenica 23 con un saggio finale nel
+									quale tutti gli allievi effettivi si esibiranno.</li>
 							</ul>
 
 							<p class="location-description">Lezioni di gruppo</p>
 							<ul>
-								<li>Il laboratorio prevede la formazione di un'orchestra di arpe al quale prenderanno parte
+								<li>Il laboratorio prevede la formazione di un Ensemble di arpe al quale prenderanno parte
 									tutti gli allievi.</li>
 								<li>Lo studente s'impegna a prendere visione preventivamente dei brani che verranno svolti
 									durante le lezioni di gruppo ed a portare con sé le partiture fornite dalla segreteria
@@ -470,7 +370,7 @@
 							<ul>
 								<li>La quota d'iscrizione non è in nessun caso rimborsabile.</li>
 								<li>È possibile effettuare l'iscrizione compilando il modulo <a
-										href="res/Iscrizione_HarpLab.pdf" target="_blank">qui</a> scaricabile e inoltrandolo
+										href="res/Iscrizione_HarpLab_winter_edition.pdf" target="_blank">qui</a> scaricabile e inoltrandolo
 									all’e-mail info@harplab.it</li>
 								<li>L'iscrizione sarà ritenuta valida solo se completa in ogni sua parte e inoltrata con una
 									copia del versamento effettuato.</li>
@@ -508,15 +408,7 @@
 							<table class="price-table">
 								<tr>
 									<td class="room-title">50€</td>
-									<td class="room-title">Quota d'iscrizione</td>
-								</tr>
-								<tr>
-									<td class="room-title">180€</td>
-									<td class="room-title">HarpLab Allievi Effettivi</td>
-								</tr>
-								<tr>
-									<td class="room-title">50€</td>
-									<td class="room-title">HarpLab Uditori</td>
+									<td class="room-title">Quota Corso</td>
 								</tr>
 								<tr>
 									<td class="room-title">40€</td>
@@ -525,9 +417,9 @@
 							</table>
 							<p style="font-weight: bold; text-align: center;">
 								Scarica il modulo di iscrizione cliccando qui.<br>
-								<a href="res/Iscrizione_HarpLab.pdf" target="_blank"><img class="download-pdf"
+								<a href="res/Iscrizione_HarpLab_winter_edition.pdf" target="_blank"><img class="download-pdf"
 										src="images/download-pdf.png" alt="alternative"></a><br>
-								Scadenza iscrizioni circa 15 giorni prima dell'inizio del corso.<br>
+								Scadenza iscrizioni 5 giorni prima dell'inizio del corso.<br>
 								Per favorire le norme anticovid le iscrizioni saranno limitate.
 							</p>
 							<p></p>
@@ -545,79 +437,50 @@
 				<div class="col-lg-5">
 					<div class="text-container">
 						<!--div class="section-title">INTRO</div-->
-						<h1 class="location-title">Il Glicine</h1>
-						<a style="text-decoration: none;" target="_blank" href="https://g.page/etna-glicine?share">
-							<p class="maps-location">Via S. Giuseppe, N .8, 95017 Piedimonte Etneo, CT <img
+						<h1 class="location-title">Accademia Musica e Arte C. Salzedos</h1>
+						<a style="text-decoration: none;" target="_blank" href="http://accademiasalzedo.com/?fbclid=IwAR0I5TSANt9lFELuW8chJEt7XfA13is9BqrlGmThHjJzO99aeufJ5VTbkZA">
+							<p class="maps-location">S.da Pellico, 51, 97015 Modica RG <img
 									style="padding-left: 1rem;width: 2rem;" src="images/google-maps-icon.png"></p>
 						</a>
-						<p class="location-description">L'evento si svolgerà presso "Il Glicine", completamente immersi
-							nel verde, alle pendici dell'Etna, tra fiori, cavalli e tanta Musica.</p>
-						<p class="location-description">Per chiunque volesse vi è la possibilità di pernottare:</p>
+						<p class="location-description">HarpLab Winter Edition sarà ospite della rinomata Accademia intitolata al grande arpista e compositore del ‘900 Carlos Salzedo.</p>
+						<p class="location-description">L’Accademia è sita a Ragusa, nella bellissima localita' di Modica tra cultura e cioccolato.</p>
 						<table class="price-table">
 							<tr>
-								<td class="room-title">Camera tripla o quadrupla</td>
-								<td class="room-title">25€</td>
-								<td class="room-title per-night">a notte</td>
-							</tr>
-							<tr>
-								<td class="room-title">Camera doppia</td>
-								<td class="room-title">35€</td>
-								<td class="room-title per-night">a notte</td>
-							</tr>
-							<tr>
-								<td class="room-title">Camera singola</td>
-								<td class="room-title">50€</td>
-								<td class="room-title per-night">a notte</td>
 							</tr>
 						</table>
 					</div> <!-- end of text-container -->
 				</div> <!-- end of col -->
 				<div style="display:flex; justify-content: center;" class="col-lg-7">
 					<div class="image-container center-container">
-						<img class="img-fluid" src="images/cavallo.jpg" alt="alternative">
+						<img class="img-fluid" src="images\Modica.jpg" alt="alternative">
 					</div> <!-- end of image-container -->
 				</div> <!-- end of col -->
 			</div> <!-- end of row -->
 			<div style="padding-top: 2.5rem;" class="cols-reverse row">
 				<div style="display:flex; justify-content: center;" class="col-lg-7">
 					<div class="image-container center-container">
-						<img class="img-fluid" src="images/glicine3.png" alt="alternative">
+						<img class="img-fluid" src="images\Salzedo inside.jpg" alt="alternative">
 					</div> <!-- end of image-container -->
 				</div> <!-- end of col -->
 				<div style="padding-bottom: 1.2rem;" class="col-lg-5">
 					<div class="text-container">
-						<p class="location-description">il prezzo del pernottamento include la colazione e l'uso della
-							piscina interrata.</p>
-						<p class="location-description">il Glicine propone anche un servizio ristoro:</p>
-						<table class="price-table">
 							<tr>
-								<td class="room-title">Pensione completa</td>
-								<td class="room-title">25€</td>
-								<td class="room-title per-night">al giorno</td>
-							</tr>
-							<tr>
-								<td class="room-title">Mezza pensione</td>
-								<td class="room-title">15€</td>
-								<td class="room-title per-night">al giorno</td>
-							</tr>
-							<tr>
-								<td class="room-title"></td>
-								<td class="room-title"></td>
-								<td class="room-title per-night"></td>
-							</tr>
-							<tr>
-								<td class="room-title"></td>
-								<td class="room-title"></td>
-								<td class="room-title per-night">Acqua inclusa</td>
-							</tr>
-						</table>
-
-						<p class="location-description">I prezzi in convenzione saranno disponibili fino al 15 giugno.
+							</a>
+							<p class="location-description">
+								Per chiunque volesse vi è la possibilità di pernottare
+								presso delle strutture in convenzione con l'evento :
+								<ul style="color: black">
+									<li>B&B Luna Blu - 0932 763812</li>
+									<li>Oro Hotel Modica - <a href=https://www.orohotelmodica.it/>https://www.orohotelmodica.it</a></li>
+									<li>Hotel Principe D`Aragona - <a href=https://www.hotelprincipedaragona.com/>https://www.hotelprincipedaragona.com</a></li>
+								</ul>
+							</p>
+							<table class="price-table">
+								</tr>
+							</table>
+						<p class="location-description">I prezzi in convenzione saranno disponibili fino al 18 Dicembre.
 						</p>
 						<p class="location-description">Posti limitati.</p>
-						<div class="room-title">PER MAGGIORI INFO SUL POSTO E PER LA PRENOTAZIONE:</div>
-						<a style="font-style: italic;" href="http://www.etnaglicine.com/"
-							target="_blank">www.etnaglicine.com</a>
 					</div> <!-- end of text-container -->
 				</div> <!-- end of col -->
 			</div> <!-- end of row -->
@@ -661,7 +524,7 @@
 					</div> <!-- end of text-container -->
 				</div> <!-- end of col -->
 				<div class="col-lg-7">
-					<img class="contact-img img-fluid" src="images/contact3.jpg" alt="alternative">
+					<img class="contact-img img-fluid" src="images\IntroWE.jpg" alt="alternative">
 					<!-- Contact Form -->
 					<!--form id="contactForm" data-toggle="validator" data-focus="false">
 						<div class="form-group">
