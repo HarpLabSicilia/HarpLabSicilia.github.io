@@ -118,7 +118,8 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="text-container">
-							<p><span style="font-family: 'Cinzel', serif; color:white; font-size: 57px; text-shadow: 1px 1px 2px black;">HarpLab</span>
+							<p><span
+									style="font-family: 'Cinzel', serif; color:white; font-size: 57px; text-shadow: 1px 1px 2px black;">HarpLab</span>
 							</p>
 							<p>
 								<span
@@ -230,6 +231,145 @@
 		</div> <!-- end of container -->
 	</div> <!-- end of basic-2 -->
 	<!-- end of team -->
+
+	<!-- Gallery-->
+	<div id="event" class="basic-1">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1 style="text-align: center; padding: 3rem;" class="location-title">Gallery</h1>
+				</div> <!-- end of col -->
+			</div> <!-- end of row -->
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="image-container">
+						<div class="slideshow-container">
+
+							<div class="mySlides">
+								<img src="images/Gallery/Gallery11 (Custom).JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="images/Gallery/Gallery19 (Custom).JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="images/Gallery/Gallery7 (Custom).JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="images/Gallery/Gallery16 (Custom).JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="images/Gallery/Gallery4 (Custom).JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="images/Gallery/Gallery10 (Custom).JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="images/Gallery/Gallery8 (Custom).JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="images/Gallery/Gallery20 (Custom).JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="images/Gallery/Gallery18 (Custom).JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="images/Gallery/Gallery0 (Custom).JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="images/Gallery/Gallery1 (Custom).JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="images/Gallery/Gallery12 (Custom).JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="images/Gallery/Gallery5 (Custom).JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="images/Gallery/Gallery14 (Custom).JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="images/Gallery/Gallery17 (Custom).JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="images/Gallery/Gallery15 (Custom).JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="images/Gallery/Gallery2 (Custom).JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="images/Gallery/Gallery3 (Custom).JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="images/Gallery/Gallery13 (Custom).JPG" style="width:100%">
+							</div>
+
+							<div class="mySlides">
+								<img src="images/Gallery/Gallery9 (Custom).JPG" style="width:100%">
+							</div>
+
+						</div>
+					</div> <!-- end of image-container -->
+				</div> <!-- end of col -->
+			</div> <!-- end of row -->
+		</div> <!-- end of container -->
+	</div> <!-- end of basic-1 -->
+	<script>
+		var slides = document.getElementsByClassName("mySlides");
+		var slideIndex = 0;
+
+		var i;
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		}
+		slides[0].style.display = "block";
+		slides[0].classList.add("fadein");
+		currentSlide = slides[0]
+		setTimeout(hideSlide, 4500);
+
+		function showSlides() {
+			currentSlide.style.display = "none";
+			currentSlide.classList.remove("fadeout");
+
+			slideIndex++;
+			if (slideIndex >= slides.length) { slideIndex = 0 }
+
+			currentSlide = slides[slideIndex];
+
+			if (currentSlide) {
+				currentSlide.style.display = "block";
+				currentSlide.classList.add("fadein");
+			}
+			setTimeout(hideSlide, 4500);
+		}
+		function hideSlide() {
+			if (currentSlide) {
+				currentSlide.classList.remove("fadein");
+				currentSlide.classList.add("fadeout");
+			}
+			setTimeout(showSlides, 600);
+		}
+	</script>
+	<!-- end of intro -->
+
+	<!-- end of gallery-->
 
 	<div id="program" class="event_area">
 		<div class="container">
@@ -474,10 +614,10 @@
 								pubblicare le registrazioni audio e video a scopo dimostrativo e promozionale.</li>
 						</ul>
 
-						<p class="location-description">Accettazione regolamento</p>
+						<p class="location-description">Accettazione o</p>
 						<ul>
 							<li>L'iscrizione ai corsi implica la piena ed integrale accettazione del presente
-								Regolamento. In caso di contestazioni è legalmente valido il Regolamento in lingua
+								o. In caso di contestazioni è legalmente valido il o in lingua
 								italiana. Sono escluse le vie legali. </li>
 							<li>Per gli studenti minorenni sarà necessaria un’attestazione da parte dei genitori che
 								esoneri completamente l’organizzazione da ogni responsabilità nei riguardi del figlio.
@@ -518,7 +658,7 @@
 			</div> <!-- end of row -->
 		</div> <!-- end of container -->
 	</div> <!-- end of basic-1 -->
-	<!-- end of regolamento -->
+	<!-- end of o -->
 
 	<!-- Location -->
 	<div id="location" class="glicine-background basic-1">
