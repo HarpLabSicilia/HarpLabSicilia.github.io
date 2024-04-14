@@ -2516,6 +2516,11 @@ a:hover.back-to-top {
 	color: rgb(30, 30, 30);
 }
 
+.quote-title{
+	font-family: 'Cinzel', serif;
+	color: rgb(30, 30, 30);
+}
+
 .price-table{
 	width:100%;
 	margin-top: 0.5rem;
